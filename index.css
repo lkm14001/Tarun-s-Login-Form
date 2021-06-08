@@ -24,7 +24,7 @@ body {
   padding: 40px;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  background: rgba( 255, 255, 255, 0.05 );
+  background: rgba( 255, 255, 255, 0.25 );
   box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 0.37);
   backdrop-filter: blur( 0px );
   border-radius: 10px;
