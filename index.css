@@ -3,21 +3,30 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-image: url(bg-img.png);
-  background-size: cover;
-  background-attachment: fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+@media screen and (max-width:500px){
+ body{
+   background-image: url(bg3-img.jpg);
+   background-size: cover;
+   height: 100;
+   overflow: hidden;
+  }
 }
 .login-form {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 80%;
   width: 380px;
   height: 420px;
   padding: 40px;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  background: rgba( 255, 255, 255, 0.25 );
+  background: rgba( 255, 255, 255, 0.05 );
   box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 0.37);
-  backdrop-filter: blur( 4px );
+  backdrop-filter: blur( 0px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
