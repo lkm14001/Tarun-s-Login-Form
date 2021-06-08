@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-attachment:fixed;
 }
-@media screen (max-width:340px){
+@media screen and (max-width:340px){
  body{
    background-image: url(bg3-img.jpg);
    background-size: cover;
